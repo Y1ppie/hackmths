@@ -1,0 +1,266 @@
+.min-h-full {
+    min-height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    line-height: 1.5;
+	box-sizing: border-box;
+}
+h1 {
+	    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	
+   }
+
+
+.ml-8 {
+    margin-left: 2rem;
+}
+
+.z-50 {
+    z-index: 50;
+}
+.flex-1 {
+    flex: 1 1;
+}
+
+.w-full {
+    width: 100%;
+}
+.text-xl {
+    font-size: 1.25rem;
+}
+.text-gray-700 {
+    color: #4a5568;
+}
+.shadow {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+.fixed {
+    position: fixed;
+}
+.p-6 {
+    padding: 1.5rem;
+	
+
+}
+.bg-white {
+    background-color: #fff;
+}
+
+
+
+nav {
+    display: block;
+  float: left;
+	width:100%;
+ 	
+	
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+
+ol, ul{
+  list-style: none;
+}
+
+ul{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+	 margin: 0;
+    padding: 0;
+	
+}
+.w-full {
+    width: 100%;
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+
+li
+{
+display: list-item;
+ text-align: -webkit-match-parent;
+ display: inline-block;
+
+}
+
+div.desc {
+
+
+
+}
+.hide {
+  display: none;
+}
+
+div {
+    display: block;
+ margin: auto;
+  padding: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+    font: inherit;
+}
+
+*, :after, :before {
+    border: 0 solid #e2e8f0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+@media (min-width: 768px)
+.md\:pt-32 {
+    padding-top: 8rem;
+}
+
+@media (min-width: 768px)
+.md\:pb-12 {
+    padding-bottom: 3rem;
+}
+
+media (min-width: 768px)
+.md\:flex {
+    display: flex;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+.leading-none {
+    line-height: 1;
+}
+
+.hero {
+    background-image: url(https://i.imgur.com/2TicKe6.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.w-full {
+    width: 100%;
+}
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.min-h-full {
+    min-height: 100%;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+@media (min-width: 768px)
+.md\:text-6xl {
+    font-size: 4rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pt-24 {
+    padding-top: 6rem;
+}
+.focus\:outline-none:focus, .outline-none {
+    outline: 0;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+a {
+    background-color: transparent;
+}
+
+.max-w-56 {
+  height: auto;
+   max-width: 14rem;
+  margin: 0 auto; 
+	
+}
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.h-auto {
+    height: auto;
+}
+
+@media (min-width: 640px)
+.sm\:max-w-64 {
+    max-width: 16rem;
+}
+
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
+
+img {
+    border-style: solid;
+
+    vertical-align: middle;
+}
+
+
+.bg-blue {
+    background-color: #003e70;
+}
+
+.trix-content {
+    width: 100%;
+    max-width: 60ch;
+	 margin: auto;
+  padding: auto;
+}
+
+.bg-black {
+    background-color: #000;
+}
