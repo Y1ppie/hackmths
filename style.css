@@ -12,19 +12,40 @@
       }
 
       .one {
-        flex: 1 1 0;
+        flex: 3.5 1 0;
     }
-
+   .one1{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+    }
     .two {
-        flex: 1 1 0;
+        flex: .45 1 0;
     }
 
     .three {
         flex: 0.5 1 0;
     }
-  
-
-
+     .four {
+        flex: 0.6 1 0;
+    }
+  .five {
+        flex: 0.6 1 0;
+    }
+  .six {
+        flex: 0.3 1 0;
+    }
+	 .seven {
+        flex: 2 1 0;
+    }
+	 .eight {
+    
+		  text-align:center;
+		     margin-left: auto;
+  margin-right: auto;
+    }
+	
+	
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
@@ -55,8 +76,7 @@ h3 {
 	    display: inline-block;
     font-size: 3em;
 	opacity:0.8;
-	    margin-left: 15rem;
-		  margin-top: -15rem;
+	   
 letter-spacing: 6px;
  font-family:'Courier Prime', monospace;
 
@@ -69,16 +89,57 @@ letter-spacing: 6px;
  font-family:'Courier Prime', monospace;
 
    }
+   h5 {
+	font-style:bold;
+    font-size: 2em;
+	opacity:3;
+letter-spacing: 1px;
+ font-family:'Courier Prime', monospace;
+ text-decoration: underline;
 
+   }
+   h6 {
+	font-style:bold;
+    font-size: 2em;
+	opacity:3;
+letter-spacing: 1px;
+ font-family:'Courier Prime', monospace;
+
+
+   }
+iframe
+{
+		display: flex;
+	width:100%;
+		height:100%;
+	   margin-left: auto;
+  margin-right: auto;
+  	padding: 1px 1px;
+	overflow: hidden;
+
+  
+}
+form
+{
+	display: inline-block;
+		    font-size: 3em;
+		 font-family:'Courier Prime', monospace;
+	padding: 5px 25px;
+	letter-spacing: 5px;
+background-color:black;
+color:white;
+}
+input{
+	background-color:black;
+color:white;}
 
 button
 {
 	display: inline-block;
-	    margin-left: 15rem;
-		  margin-top: -15rem;
 		    font-size: 3em;
-			font-family: 'Montserrat', sans-serif;
+		 font-family:'Courier Prime', monospace;
 	padding: 5px 25px;
+	letter-spacing: 5px;
 
 }
 
@@ -133,6 +194,15 @@ button
     background-color: #fff;
 }
 
+.button
+{
+	display: inline-block;
+		    font-size: 3em;
+		 font-family:'Courier Prime', monospace;
+	padding: 5px 25px;
+	letter-spacing: 5px;
+
+}
 
 
 nav {
@@ -309,10 +379,9 @@ a {
 .max-w-56 {
   
  height: auto;
-width:15%;
+width:55%;
  max-width: auto;
- margin-left: 2rem;
-
+ margin-left: 4rem;
   margin-right: auto;
 	
 }
